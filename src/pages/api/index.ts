@@ -84,7 +84,7 @@ export const post: APIRoute = async context => {
     } = body
 
     if (pwd && pwd !== password) {
-      throw new Error("没有填写邀请码或邀请码错误，获取方式：关注诺维之舟，回复ycode")
+      throw new Error("没有填写邀请码或邀请码错误，获取方式：关注公众号alimtech，回复gpt")
     }
 
     if (!messages?.length) {
