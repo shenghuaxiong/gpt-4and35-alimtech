@@ -10,7 +10,7 @@ export const defaultSetting = {
   model: "gpt-3.5-turbo" as Model
 }
 
-export const defaultMessage = `请在设置中输入邀请码（关注诺维之舟，回复ycode）和APIKEY。自备APIKEY|[网站助手](http://nwzz.xyz)`
+export const defaultMessage = `请在设置中输入邀请码（关注公众号alimtech，回复gpt）和APIKEY。自备APIKEY|[网站助手](http://nwzz.xyz)`
 
 export type Setting = typeof defaultSetting
 
